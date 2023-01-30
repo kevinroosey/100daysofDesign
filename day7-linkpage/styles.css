@@ -1,0 +1,54 @@
+:root{
+    --black: #171717;
+    --pink:#f43f5e;
+  }
+  
+  body{
+    background-color:var(--black);
+    background-image: radial-gradient(
+            rgba(255, 255, 255, 0.2) 3%, 
+            transparent 1%
+          );
+    background-position: 0% 0%;
+    background-size: 5vmin 5vmin;
+  }
+  
+  .main{
+    width:30%;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .main h3{
+    color:#f1f5f9;
+    font-family:"Rubik", sans-serif;
+    
+  }
+  
+  .main button{
+    width:50%;
+    margin:0 auto;
+    background-color:transparent;
+    border:2px solid var(--pink);
+    margin-top: 2vh;
+    padding-top:1vh;
+    padding-bottom:1vh;
+    font-family: "Rubik", sans-serif;
+    color: #f1f5f9;
+    font-size: 2vh;
+    -webkit-transition: background-color 
+  }
+  
+  .main button:hover{
+    background-color:var(--pink);
+    border-radius:10px;
+  }
+  
+  
